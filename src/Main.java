@@ -11,7 +11,7 @@ public class Main {
                 LocalDate.of(1993,1,18));
 
 
-        e1.plantilla = new Jugador[5];
+        e1.plantilla = new Jugador[11];
         e1.plantilla[0] = j1;
         j1.posicion = Posicion.EXTREMO;
 

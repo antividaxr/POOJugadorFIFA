@@ -3,10 +3,24 @@ public class Persona {
     private String country ;
     private String id ;
     public boolean is_alive = true;
-
     public String getCountry(){
         return country;
     }
+    private static int contadorGeneral = 0;
+    public Persona(String name){
+        this.name = name;
+        contadorGeneral ++;
+        this.id =String.valueOf(contadorGeneral);
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getCountry() {return country;}
 
     public void setCountry(String newCountry){
         this.country=newCountry;
