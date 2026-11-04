@@ -1,46 +1,23 @@
 import java.time.LocalDate;
 
+import javax.swing.*;
+import java.nio.file.Paths;
+
 public class Main {
+    // Se busca en la carpeta raÃ­z del proyecto (junto a src). TambiÃ©n puedes usar el botÃ³n "Cargar CSV...".
+    private static final String ARCHIVO_CSV = "jugadores_futbol_nombre_unico.csv";
+
     public static void main(String[] args) {
-        Jugador j1 = new Jugador();
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception ignored) {
+            // Si falla, Swing usa su aspecto por defecto.
+        }
 
-        Equipo e1 = new Equipo();
-
-
-        Jugador j3 = new Jugador("Quintero",
-                LocalDate.of(1993,1,18));
-
-
-        e1.plantilla = new Jugador[11];
-        e1.plantilla[0] = j1;
-        j1.posicion = Posicion.EXTREMO;
-
-        Persona p1 = new Persona();
-        p1.name = "Daniel";
-        p1.setCountry("Colombia");
-
-        Jugador j2 = new Jugador();
-        //j2.p1 = p1;
-        j2.posicion = Posicion.DELANTERO;
-        j1.name = "Messi";
-        j1.dorsal = 10;
-        j1.setNacimiento(LocalDate.of(1987,9,28));
-        //j1.country = "Argentina";
-        //j1.id = "1";
-        j1.setCountry("España");
-        System.out.println(j1.getCountry());
-
-        System.out.println(j1);
-
-
-        Tecnico t1 = new Tecnico();
-
-        t1.name="Pekerman";
-        t1.club="Desempleado";
-
-        System.out.println(t1);
-
-        System.out.println(j3.getEdad());
-
+        SwingUtilities.invokeLater(() -> {
+            Pantalla pantalla = new Pantalla();
+            pantalla.cargarSiExiste(Paths.get(ARCHIVO_CSV));
+            pantalla.setVisible(true);
+        });
     }
 }

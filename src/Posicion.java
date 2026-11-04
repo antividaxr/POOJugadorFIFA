@@ -4,7 +4,13 @@ public enum Posicion
     DEFENSA,
     DELANTERO,
     MEDIOCAMPISTA,
+    CENTROCAMPISTA,
     LATERAL,
     EXTREMO,
-    VOLANTE
+    VOLANTE;
+    @Override
+    public String toString() {
+        String n = name();
+        return n.charAt(0) + n.substring(1).toLowerCase();
+    }
 }

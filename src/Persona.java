@@ -1,16 +1,19 @@
 public class Persona {
     public String name;
-    private String country ;
-    private String id ;
+    private String country;
+    private String id;
     public boolean is_alive = true;
-    public String getCountry(){
-        return country;
-    }
     private static int contadorGeneral = 0;
-    public Persona(String name){
+
+    public Persona(String name) {
         this.name = name;
-        contadorGeneral ++;
-        this.id =String.valueOf(contadorGeneral);
+        contadorGeneral++;
+        this.id = String.valueOf(contadorGeneral);
+    }
+
+    // Se usa al cargar un CSV nuevo para que los IDs vuelvan a empezar en 1.
+    public static void reiniciarContador() {
+        contadorGeneral = 0;
     }
 
     public String getId() {
@@ -20,10 +23,13 @@ public class Persona {
     public void setId(String id) {
         this.id = id;
     }
-    public String getCountry() {return country;}
 
-    public void setCountry(String newCountry){
-        this.country=newCountry;
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String newCountry) {
+        this.country = newCountry;
     }
 
     @Override
@@ -34,8 +40,5 @@ public class Persona {
                 ", is_alive=" + is_alive +
                 '}';
     }
-
-
-
-
 }
+

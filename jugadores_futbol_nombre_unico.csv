@@ -1,0 +1,101 @@
+Nombre,Fecha_de_Nacimiento,Pais,Dorsal,Posicion,Vivo
+Messi,1987-06-24,Argentina,10,Delantero,Sí
+Ronaldo,1985-02-05,Portugal,7,Delantero,Sí
+Mbappé,1998-12-20,Francia,9,Delantero,Sí
+Haaland,2000-07-21,Noruega,9,Delantero,Sí
+De Bruyne,1991-06-28,Bélgica,17,Centrocampista,Sí
+Modrić,1985-09-09,Croacia,10,Centrocampista,Sí
+Van Dijk,1991-07-08,Países Bajos,4,Defensa,Sí
+Lewandowski,1988-08-21,Polonia,9,Delantero,Sí
+Neymar,1992-02-05,Brasil,10,Delantero,Sí
+Salah,1992-06-15,Egipto,11,Delantero,Sí
+Kane,1993-07-28,Inglaterra,9,Delantero,Sí
+Ter Stegen,1992-04-30,Alemania,1,Portero,Sí
+Griezmann,1991-03-21,Francia,7,Delantero,Sí
+Son,1992-07-08,Corea del Sur,7,Delantero,Sí
+Bellingham,2003-06-29,Inglaterra,5,Centrocampista,Sí
+Vinícius,2000-07-12,Brasil,7,Delantero,Sí
+Alisson,1992-10-02,Brasil,1,Portero,Sí
+Courtois,1992-05-11,Bélgica,1,Portero,Sí
+Benzema,1987-12-19,Francia,9,Delantero,Sí
+Kroos,1990-01-04,Alemania,8,Centrocampista,Sí
+Rodri,1996-06-22,España,16,Centrocampista,Sí
+Musiala,2003-02-26,Alemania,42,Centrocampista,Sí
+Wirtz,2003-05-03,Alemania,10,Centrocampista,Sí
+Saka,2001-09-05,Inglaterra,7,Delantero,Sí
+Pedri,2002-11-25,España,8,Centrocampista,Sí
+Gavi,2004-08-05,España,6,Centrocampista,Sí
+Yamal,2007-07-13,España,19,Delantero,Sí
+Valverde,1998-07-22,Uruguay,8,Centrocampista,Sí
+Lautaro,1997-08-22,Argentina,22,Delantero,Sí
+Álvarez,2000-01-31,Argentina,19,Delantero,Sí
+Dias,1997-05-14,Portugal,3,Defensa,Sí
+Silva,1994-08-10,Portugal,10,Centrocampista,Sí
+Fernandes,1994-09-08,Portugal,8,Centrocampista,Sí
+Leão,1999-06-10,Portugal,10,Delantero,Sí
+Osimhen,1998-12-29,Nigeria,9,Delantero,Sí
+Kvaratskhelia,2001-02-12,Georgia,7,Delantero,Sí
+Griezmann,1991-03-21,Francia,7,Delantero,Sí
+Saliba,2001-03-24,Francia,2,Defensa,Sí
+Upamecano,1998-10-27,Francia,4,Defensa,Sí
+Maignan,1995-07-03,Francia,1,Portero,Sí
+Rudiger,1993-03-03,Alemania,2,Defensa,Sí
+Kimmich,1995-02-08,Alemania,6,Centrocampista,Sí
+Sané,1996-01-11,Alemania,10,Delantero,Sí
+Gnabry,1995-07-14,Alemania,7,Delantero,Sí
+Rice,1999-01-14,Inglaterra,4,Centrocampista,Sí
+Foden,2000-05-28,Inglaterra,47,Delantero,Sí
+Rashford,1997-10-31,Inglaterra,10,Delantero,Sí
+Palmer,2002-05-06,Inglaterra,20,Centrocampista,Sí
+Walker,1990-05-28,Inglaterra,2,Defensa,Sí
+Stones,1994-05-28,Inglaterra,5,Defensa,Sí
+Pickford,1994-03-07,Inglaterra,1,Portero,Sí
+Oblak,1993-01-07,Eslovenia,1,Portero,Sí
+Gvardiol,2002-01-23,Croacia,4,Defensa,Sí
+Barella,1997-02-07,Italia,23,Centrocampista,Sí
+Bastoni,1999-04-13,Italia,95,Defensa,Sí
+Donnarumma,1999-02-25,Italia,1,Portero,Sí
+Chiesa,1997-10-25,Italia,14,Delantero,Sí
+Dimarco,1997-11-10,Italia,3,Defensa,Sí
+Milenković,1997-10-12,Serbia,4,Defensa,Sí
+Mitrović,1994-09-16,Serbia,9,Delantero,Sí
+Vlahović,1999-01-28,Serbia,9,Delantero,Sí
+Xhaka,1992-09-27,Suiza,10,Centrocampista,Sí
+Akanji,1995-07-19,Suiza,5,Defensa,Sí
+Sommer,1988-12-17,Suiza,1,Portero,Sí
+Schick,1996-01-24,República Checa,14,Delantero,Sí
+Souček,1995-02-27,República Checa,22,Centrocampista,Sí
+Calhanoglu,1994-02-08,Turquía,10,Centrocampista,Sí
+Güler,2005-02-25,Turquía,26,Centrocampista,Sí
+Ziyech,1993-03-19,Marruecos,7,Delantero,Sí
+Hakimi,1998-11-04,Marruecos,2,Defensa,Sí
+Bounou,1991-04-05,Marruecos,1,Portero,Sí
+En-Nesyri,1997-06-01,Marruecos,19,Delantero,Sí
+Mahrez,1991-02-21,Argelia,30,Delantero,Sí
+Mane,1992-04-10,Senegal,10,Delantero,Sí
+Koulibaly,1991-06-20,Senegal,3,Defensa,Sí
+Mendy,1992-03-01,Senegal,16,Portero,Sí
+Son,1992-07-08,Corea del Sur,7,Delantero,Sí
+Min-jae,1996-11-15,Corea del Sur,3,Defensa,Sí
+Endo,1993-02-09,Japón,3,Centrocampista,Sí
+Kubo,2001-06-04,Japón,14,Delantero,Sí
+Mitoma,1997-05-20,Japón,7,Delantero,Sí
+Pulisic,1998-09-18,Estados Unidos,11,Delantero,Sí
+Davies,2000-11-02,Canadá,19,Defensa,Sí
+David,2000-01-14,Canadá,9,Delantero,Sí
+Giménez,2001-04-18,México,9,Delantero,Sí
+Pelé,1940-10-23,Brasil,10,Delantero,No
+Maradona,1960-10-30,Argentina,10,Centrocampista,No
+Cruyff,1947-04-25,Países Bajos,14,Delantero,No
+Eusébio,1942-01-25,Portugal,9,Delantero,No
+Müller,1945-11-03,Alemania,9,Delantero,No
+Beckenbauer,1945-09-11,Alemania,5,Defensa,No
+Best,1946-05-22,Irlanda del Norte,7,Delantero,No
+Charlton,1937-10-11,Inglaterra,9,Centrocampista,No
+Di Stéfano,1926-07-04,Argentina,9,Delantero,No
+Puskás,1927-04-01,Hungría,10,Delantero,No
+Garrincha,1933-10-28,Brasil,7,Delantero,No
+Yashin,1929-10-22,Unión Soviética,1,Portero,No
+Kubala,1927-06-10,Hungría,9,Delantero,No
+Socrates,1954-02-19,Brasil,8,Centrocampista,No
+Rossi,1956-09-23,Italia,20,Delantero,No
