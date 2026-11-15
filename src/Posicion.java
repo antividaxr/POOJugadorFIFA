@@ -1,5 +1,4 @@
-public enum Posicion
-{
+public enum Posicion {
     PORTERO,
     DEFENSA,
     DELANTERO,
@@ -8,6 +7,7 @@ public enum Posicion
     LATERAL,
     EXTREMO,
     VOLANTE;
+
     @Override
     public String toString() {
         String n = name();
