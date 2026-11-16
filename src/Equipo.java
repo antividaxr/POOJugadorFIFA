@@ -7,8 +7,7 @@ public class Equipo {
 
     private String teamName;
     private final List<Jugador> plantilla = new ArrayList<>();
-    private Tecnico tecnico_equipo;
-
+    private Tecnico tecnico_equipo; 
     public Equipo(String teamName) {
         this.teamName = teamName;
     }
@@ -29,8 +28,24 @@ public class Equipo {
         this.tecnico_equipo = tecnico;
     }
 
-    // Devuelve una vista de solo lectura: la plantilla solo se cambia con agregarJugador y sacarJugador.
-    public List<Jugador> getPlantilla() {
+    public boolean tieneTecnico() {
+        return tecnico_equipo != null;
+    }
+
+        public boolean asignarTecnico(Tecnico tecnico) {
+        if (tecnico == null || tieneTecnico()) {
+            return false;
+        }
+        tecnico_equipo = tecnico;
+        return true;
+    }
+
+    
+    public Tecnico sacarTecnico() {
+        Tecnico saliente = tecnico_equipo;
+        tecnico_equipo = null;
+        return saliente;
+    }    public List<Jugador> getPlantilla() {
         return Collections.unmodifiableList(plantilla);
     }
 
@@ -46,7 +61,7 @@ public class Equipo {
         return plantilla.contains(jugador);
     }
 
-    public boolean agregarJugador(Jugador jugador) {
+        public boolean agregarJugador(Jugador jugador) {
         if (jugador == null || estaCompleto() || contiene(jugador)) {
             return false;
         }
@@ -54,7 +69,7 @@ public class Equipo {
         return true;
     }
 
-    public boolean sacarJugador(Jugador jugador) {
+        public boolean sacarJugador(Jugador jugador) {
         return plantilla.remove(jugador);
     }
 

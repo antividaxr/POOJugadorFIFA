@@ -11,9 +11,11 @@ public class Persona {
         this.id = String.valueOf(contadorGeneral);
     }
 
-    // Se usa al cargar un CSV nuevo para que los IDs vuelvan a empezar en 1.
-    public static void reiniciarContador() {
+        public static void reiniciarContador() {
         contadorGeneral = 0;
+    }
+    public static void fijarContador(int valor) {
+        contadorGeneral = valor;
     }
 
     public String getId() {
@@ -40,22 +42,4 @@ public class Persona {
                 ", is_alive=" + is_alive +
                 '}';
     }
-
-    public enum Posicion
-    {
-        PORTERO,
-        DEFENSA,
-        DELANTERO,
-        MEDIOCAMPISTA,
-        CENTROCAMPISTA,
-        LATERAL,
-        EXTREMO,
-        VOLANTE;
-        @Override
-        public String toString() {
-            String n = name();
-            return n.charAt(0) + n.substring(1).toLowerCase();
-        }
-    }
 }
-
